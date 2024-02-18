@@ -12,6 +12,10 @@ body {
 button {
     color: white;
     background: rgb(255, 84, 0);
+    border: 0;
+    outline: 0;
+    height: 52px;
+    border-radius: 8px;
 }
 /* common shared styles end here */
 
@@ -64,7 +68,7 @@ button {
 
 /* styles for banner start here */
 .banner-section {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .banner-container {
     width: 80%;
@@ -118,10 +122,63 @@ button {
     flex-grow: 1;
 
 }
-.search input {
-    padding-left: 16px;
-}
-.search select {
+.search input, .search select {
     color: gray;
     padding-left: 16px;
 }
+.search button {
+    font-weight: 700;
+}
+
+/* styling tours section starts */
+.tours-section {
+    margin-top: 100px;
+}
+.tours-container {
+    width: 80%;
+    /* min-height: 500px; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.tours {
+    display: flex;
+    justify-content: space-between;
+}
+.tours-desc {
+    /* max-width: 570px; */
+    width: 50%;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+.tours-desc h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: black;
+}
+.tours-desc ul {
+    padding-left: 20px;
+    margin: 24px auto;
+    /* border: 1px solid green; */
+}
+.tours-desc ul li {
+    margin-bottom: 16px;
+}
+.tours-desc button {
+    max-width: 174px;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.mountain {
+    width: 45%;
+    /* border: 1px solid blue; */
+}
+.mountain img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+/* styling tours section ends */

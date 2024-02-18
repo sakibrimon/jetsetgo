@@ -1,6 +1,9 @@
 /* for mobile devices */
 @media screen and (max-width: 600px) {
     /* responsive navbar starts */
+    .header-section {
+        margin-top: 10px;
+    }
     .nav-container {
         width: 90%;
     }
@@ -18,6 +21,9 @@
     /* responsive navbar ends */
 
     /* responsive banner starts */
+    .banner-section {
+        margin-top: 25px;
+    }
     .banner-container {
         width: 90%;
         height: 730px;
@@ -47,4 +53,23 @@
         max-width: 390px;
     }
     /* responsive banner ends */
+
+    /* responsive tours section starts */
+    .tours-section {
+        margin-top: 36px;
+    }
+    .tours-container {
+        width: 90%;
+    }
+    .tours {
+        flex-direction: column;
+        gap: 36px;
+    }
+    .tours-desc, .mountain {
+        width: 100%;
+    }
+    .tours-desc h1 {
+        font-size: 2rem;
+    }
+    /* responsive tours section ends */
 }
