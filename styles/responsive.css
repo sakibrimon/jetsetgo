@@ -1,0 +1,50 @@
+/* for mobile devices */
+@media screen and (max-width: 600px) {
+    /* responsive navbar starts */
+    .nav-container {
+        width: 90%;
+    }
+    .logo-text {
+        margin-left: 10px;
+        font-size: 1.25rem;
+    }
+    .nav-items-container {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    /* responsive navbar ends */
+
+    /* responsive banner starts */
+    .banner-container {
+        width: 90%;
+        height: 730px;
+    }
+    .banner {
+        max-width: 85%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .banner h1 {
+        font-size: 2rem;
+    }
+    .banner-desc {
+        margin: 12px auto 48px;
+        max-width: 100%;
+    }
+    .banner-form {
+        padding: 48px;
+    }
+    .search {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .search input, .search select, .search button {
+        max-width: 390px;
+    }
+    /* responsive banner ends */
+}

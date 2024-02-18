@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+/* common shared styles start here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+}
+button {
+    color: white;
+    background: rgb(255, 84, 0);
+}
+/* common shared styles end here */
+
+/* styles for navbar start here */
+.header-section {
+    margin-top: 20px;
+}
+.nav-container {
+    /* min-height: 50px; */
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container {
+    /* border: 1px solid green; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.logo-text {
+    margin-left: 16px;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.go-text {
+    color: #FF5400;
+}
+.nav-items-container {
+    width: 50%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container a {
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+.home {
+    font-weight: 700;
+    color: #FF5400;
+}
+.hamburger {
+    display: none;
+}
+/* styles for navbar end here */
+
+/* styles for banner start here */
+.banner-section {
+    margin-top: 20px;
+}
+.banner-container {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    /* border: 1px solid green; */
+    max-width: 99%;
+    color: white;
+    text-align: center;
+}
+.banner h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-desc {
+    /* border: 1px solid blue; */
+    margin: 24px auto 48px;
+    max-width: 85%;
+}
+.banner-desc p {
+    font-size: 1rem;
+}
+.banner-form {
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.search input, .search select, .search button {
+    border: 0;
+    outline: 0;
+    height: 52px;
+    border-radius: 8px;
+    max-width: 174px;
+    flex-grow: 1;
+
+}
+.search input {
+    padding-left: 16px;
+}
+.search select {
+    color: gray;
+    padding-left: 16px;
+}
