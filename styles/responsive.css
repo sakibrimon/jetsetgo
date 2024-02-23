@@ -124,6 +124,9 @@
     .row div img {
         object-fit: cover;
     }
+    .centered-element {
+        font-weight: 700;
+    }
     /* responsive destination section ends */
 
     /* responsive features section starts */
@@ -192,4 +195,34 @@
         font-size: 1.5rem;
     }
     /* responsive nl section ends */
+
+    /* responsive footer starts */
+    .footer-container {
+        margin-top: 36px;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .footer-logo-container {
+        width: 45%;
+    }
+    .footer-logo-text {
+        font-size: 1.75rem;
+    }
+    .footer-desc {
+        width: 75%;
+        margin: 24px auto 0;;
+    }
+    .socials {
+        width: 45%;
+        margin: 24px auto 0;
+    }
+    .rule {
+        width: 90%;
+        margin: 36px auto 0;
+    }
+    .rights {
+        width: 45%;
+        margin: 36px auto 0;
+    }
+    /* responsive footer ends */
 }
