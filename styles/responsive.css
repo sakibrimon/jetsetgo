@@ -156,6 +156,12 @@
     }
     /* responsive features section ends */
 
+    /* responsive guides section starts */
+    .guides-container button {
+        width: 45%;
+    }
+    /* responsive guides section ends */
+
     /* responsive nl section starts */
     .nl-section {
         margin-top: 36px;

@@ -257,7 +257,7 @@ button {
     color: white;
     font-size: 1.25rem;
     font-weight: 800;
-  }
+}
 /* styling destination section ends */
 
 /* styling feature section starts */
@@ -322,6 +322,34 @@ button {
     background: rgba(41, 206, 246, 0.05);
 }
 /* styling feature section ends */
+
+ /* guides section starts */
+.guides-container {
+    margin-top: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.guides-container h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+.guides-container h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.guides-container button {
+    margin-top: 15px;
+    width: 12%;
+    font-weight: 700;
+}
+ /* guides section ends */
 
 /* styling nl section starts */
 .nl-section {
