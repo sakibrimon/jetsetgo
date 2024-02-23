@@ -73,7 +73,7 @@
     }
     /* responsive tours section ends */
 
-    /* styling destination section starts */
+    /* responsive destination section starts */
     .dest-section {
         margin-top: 36px;
     }
@@ -124,5 +124,72 @@
     .row div img {
         object-fit: cover;
     }
-    /* styling destination section ends */
+    /* responsive destination section ends */
+
+    /* responsive features section starts */
+    .feat-section {
+        margin-top: 36px;
+    }
+    .feat-container {
+        width: 90%;
+    }
+    .features h1 {
+        font-size: 2rem;
+    }
+    .feat-desc {
+        margin: 24px auto 24px;
+    }
+    .feat-row1 {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .good-hotel, .world-class, .best-price {
+        width: 100%;
+        padding: 48px;
+    }
+    .feat-card-title {
+        font-size: 2rem;
+        margin: 24px 0 24px;
+    }
+    /* responsive features section ends */
+
+    /* responsive nl section starts */
+    .nl-section {
+        margin-top: 36px;
+    }
+    .nl-container {
+        width: 90%;
+    }
+    .nl {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .newsletter {
+        width: 100%;
+        padding: 36px;
+    }
+    .newsletter h2 {
+        font-size: 2rem;
+        margin-bottom: 12px;
+    }
+    .newsletter p {
+        max-width: 70%;
+    }
+    .newsletter form input v[type="text"], .newsletter form input[type="email"] {
+        margin-bottom: 24px;
+    }
+    .newsletter form input[type="button"] {
+        font-size: 1.5rem;
+    }
+    .traveldotcom {
+        width: 100%;
+    }
+    .savings {
+        width: 60%;
+        height: 80px;
+    }
+    .savings > div h1 {
+        font-size: 1.5rem;
+    }
+    /* responsive nl section ends */
 }
