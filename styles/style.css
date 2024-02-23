@@ -97,7 +97,8 @@ button {
 .banner-desc {
     /* border: 1px solid blue; */
     margin: 24px auto 48px;
-    max-width: 85%;
+    /* max-width: 85%; */
+    max-width: 80%;
 }
 .banner-desc p {
     font-size: 1rem;
@@ -282,7 +283,8 @@ button {
     /* border: 1px solid blue; */
     color: #5A5A5D;
     margin: 24px auto 48px;
-    max-width: 55%;
+    /* max-width: 55%; */
+    max-width: 60%;
 }
 .feat-collage {
     /* border: 1px solid yellow; */
